@@ -131,3 +131,7 @@ todoItemsList.addEventListener('click', (e) => {
     deleteTodo(e.target.parentElement.getAttribute('data-key'));
   }
 });
+
+$(function() {
+  $("#sortable").sortable();
+});
